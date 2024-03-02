@@ -66,9 +66,9 @@ export default defineConfig(({ mode }) => {
           "safari-pinned-tab.svg",
         ],
         manifest: {
-          name: "movie-web",
-          short_name: "movie-web",
-          description: "The place for your favourite movies & shows",
+          name: "The Xem Ciné",
+          short_name: "xemcine.com",
+          description: "The Xem Ciné - Đem rạp chiếu phim vào giường",
           theme_color: "#120f1d",
           background_color: "#120f1d",
           display: "standalone",
