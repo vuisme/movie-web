@@ -111,6 +111,21 @@
     "mediaList": {
       "stopEditing": "Hoàn thành"
     },
+    "topRated": {
+      "sectionTitle": "Top Đánh Giá Phim lẻ"
+    },
+    "topRatedSeries": {
+      "sectionTitle": "Top Đánh Giá Phim lẻ"
+    },
+    "onAirSeries": {
+      "sectionTitle": "Phim bộ đang chiếu"
+    },
+    "popularMovies": {
+      "sectionTitle": "Top phim lẻ phổ biến"
+    },
+    "popularSeries": {
+      "sectionTitle": "Top phim bộ phổ biến"
+    },
     "search": {
       "allResults": "Đó là tất cả chúng tôi có!",
       "failed": "Không thể tìm thấy nội dung, hãy thử lại!",

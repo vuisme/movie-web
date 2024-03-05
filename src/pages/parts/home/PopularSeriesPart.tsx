@@ -1,5 +1,6 @@
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   TMDBMediaToMediaItemType,
@@ -15,6 +16,7 @@ import { WatchedMediaCard } from "@/components/media/WatchedMediaCard";
 import { MediaItem } from "@/utils/mediaTypes";
 
 export function PopularSeriesPart() {
+  const { t } = useTranslation();
   const [popularSeries, setPopularSeries] = useState<MediaItem[]>([]);
   const [page, setPage] = useState(1); // Initialize page number
   const [gridRef] = useAutoAnimate<HTMLDivElement>();
@@ -55,7 +57,10 @@ export function PopularSeriesPart() {
 
   return (
     <div className="text-center">
-      <SectionHeading title="Popular Series" icon={Icons.FILM}>
+      <SectionHeading
+        title={t("home.popularSeries.sectionTitle") || "Popular Series"}
+        icon={Icons.FILM}
+      >
         {/* Add edit button or any other actions if needed */}
       </SectionHeading>
       <MediaGrid ref={gridRef}>

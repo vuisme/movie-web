@@ -1,6 +1,7 @@
 // Import necessary dependencies
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   TMDBMediaToMediaItemType,
@@ -16,6 +17,7 @@ import { WatchedMediaCard } from "@/components/media/WatchedMediaCard";
 import { MediaItem } from "@/utils/mediaTypes";
 
 export function TopRatedMoviesPart() {
+  const { t } = useTranslation();
   const [latestMovies, setTopRatedMovies] = useState<MediaItem[]>([]);
   const [page, setPage] = useState(1); // Initialize page number
   const [gridRef] = useAutoAnimate<HTMLDivElement>();
@@ -56,7 +58,10 @@ export function TopRatedMoviesPart() {
 
   return (
     <div className="text-center">
-      <SectionHeading title="Top Rated Movies" icon={Icons.FILM} />
+      <SectionHeading
+        title={t("home.topRated.sectionTitle") || "Top Rated"}
+        icon={Icons.FILM}
+      />
       <MediaGrid ref={gridRef}>
         {latestMovies.map((movie) => (
           <WatchedMediaCard key={movie.id} media={movie} />

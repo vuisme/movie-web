@@ -110,6 +110,21 @@
     "continueWatching": {
       "sectionTitle": "Continue Watching"
     },
+    "topRated": {
+      "sectionTitle": "Top Rated Movies"
+    },
+    "topRatedSeries": {
+      "sectionTitle": "Top Rated Series"
+    },
+    "onAirSeries": {
+      "sectionTitle": "On-Air Series"
+    },
+    "popularMovies": {
+      "sectionTitle": "Popular Movies"
+    },
+    "popularSeries": {
+      "sectionTitle": "Popular Series"
+    },
     "mediaList": {
       "stopEditing": "Stop editing"
     },
