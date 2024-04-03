@@ -146,7 +146,7 @@
     },
     "titles": {
       "day": {
-        "default": "Bạn muốn xem gì vào buổi chiều này?",
+        "default": "Duma thèng TamHuu keo kiệt",
         "extra": [
           "Cảm thấy mạo hiểm? Jurassic Park có thể là sự lựa chọn hoàn hảo."
         ]
@@ -234,7 +234,7 @@
       "title": "Hãy tạo một proxy mới"
     },
     "start": {
-      "explainer": "Để nhận được các luồng tốt nhất có thể, bạn sẽ cần chọn phương pháp phát trực tuyến mà bạn muốn sử dụng.",
+      "explainer": "Để nhận được các luồng tốt nhất có thể, bạn nên chọn phương pháp phát trực tuyến mà bạn muốn sử dụng.",
       "options": {
         "default": {
           "text": "Tôi không muốn có các luồng chất lượng tốt,<0 /> <1>BỎ QUA CÀI ĐẶT VÀ TIẾP TỤC XEM FILM</1>"
