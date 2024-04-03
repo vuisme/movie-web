@@ -237,7 +237,7 @@
       "explainer": "Để nhận được các luồng tốt nhất có thể, bạn sẽ cần chọn phương pháp phát trực tuyến mà bạn muốn sử dụng.",
       "options": {
         "default": {
-          "text": "Tôi không muốn có các luồng chất lượng tốt,<0 /> <1>sử dụng cài đặt mặc định</1>"
+          "text": "Tôi không muốn có các luồng chất lượng tốt,<0 /> <1>BỎ QUA CÀI ĐẶT VÀ TIẾP TỤC XEM FILM</1>"
         },
         "extension": {
           "action": "Cài đặt tiện ích mở rộng",
