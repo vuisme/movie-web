@@ -1,98 +1,100 @@
 {
   "about": {
-    "description": "The Xem Ciné là một ứng dụng web tìm kiếm các nguồn truyền phát trực tuyến trên Internet. Nhóm phát triển ứng dụng này nhắm đến một cách dễ dàng hơn trong việc tiêu thụ nội dung.",
-    "faqTitle": "Các câu hỏi thường gặp",
+    "description": "The Xem Ciné là một ứng dụng web tìm kiếm dòng dữ liệu trên internet. Nhóm phát triển nhắm đến một phương pháp tiêu thụ nội dung phần lớn là tối giản.",
+    "faqTitle": "Câu hỏi thường gặp",
     "q1": {
-      "body": "The Xem Ciné không lưu trữ bất kì nội dung nào. Khi bạn chọn xem một nội dung nào đó, ứng dụng sẽ tìm kiếm nội dung đó trên Internet (Khi nội dung tải và trong tab 'nguồn video' bạn sẽ tìm thấy nguồn đang được dùng). Nội dung không bao giờ được tải lên trên The Xem Ciné, mọi thứ đều được tìm kiếm thông qua phương thức này.",
+      "body": "The Xem Ciné không lưu trữ bất kỳ nội dung nào. Khi bạn nhấp vào một nội dung để xem, internet sẽ được tìm kiếm cho phương tiện được chọn (Trên màn hình tải và trong tab 'nguồn video' bạn có thể thấy bạn đang sử dụng nguồn nào). Phương tiện không bao giờ được tải lên bởi The Xem Ciné, mọi thứ đều thông qua cơ chế tìm kiếm này.",
       "title": "Nội dung đến từ đâu?"
     },
     "q2": {
-      "body": "Việc yêu cầu thêm một chương trình truyền hình hoặc phim là điều bất khả thi bởi vì The Xem Ciné không quản lý bất kỳ nội dung nào. Tất cả nội dung được truyền thông qua những nguồn trên internet.",
-      "title": "Tôi có thể yêu cầu thêm một chương trình truyền hình hoặc phim ở đâu?"
+      "body": "Không thể yêu cầu một chương trình hoặc bộ phim, The Xem Ciné không quản lý bất kỳ nội dung nào. Tất cả nội dung được xem thông qua các nguồn trên internet.",
+      "title": "Tôi có thể yêu cầu một chương trình hoặc bộ phim ở đâu?"
     },
     "q3": {
-      "body": "Các kết quả tìm kiếm được cung cấp bởi The Movie Database (TMDB) và hiện lên bất kể các nguồn của trang thực sự có lưu trữ nội dung đó hay không.",
-      "title": "Tại sao kết quả tìm kiếm hiển thị chương trình truyền hình hoặc phim nhưng tôi không thể xem nó?"
+      "body": "Kết quả tìm kiếm của chúng tôi được cung cấp bởi Cơ sở dữ liệu Phim (TMDB) và hiển thị bất kể nguồn của chúng tôi có thực sự có nội dung hay không.",
+      "title": "Kết quả tìm kiếm hiển thị chương trình hoặc phim, tại sao tôi không thể chơi nó?"
     },
     "title": "Về The Xem Ciné"
   },
   "actions": {
-    "copied": "Đã sao chép",
-    "copy": "Sao chép"
+    "copied": "Copied",
+    "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Chưa có tài khoản? <0>Hãy tạo tài khoản.</0>",
+    "createAccount": "Chưa có tài khoản? <0>Tạo tài khoản.</0>",
     "deviceNameLabel": "Tên thiết bị",
     "deviceNamePlaceholder": "Điện thoại cá nhân",
     "generate": {
-      "description": "Mật ngữ của bạn đóng vai trò là tên người dùng và mật khẩu của bạn. Hãy giữ nó an toàn vì bạn sẽ cần nhập nó để đăng nhập vào tài khoản của bạn",
-      "next": "Tôi đã lưu giữ mật ngữ của mình",
-      "passphraseFrameLabel": "Mật ngữ",
-      "title": "Mật ngữ của bạn"
+      "description": "Passphrase của bạn đóng vai trò là tên người dùng và mật khẩu của bạn. Hãy đảm bảo giữ an toàn bởi vì bạn sẽ cần nhập nó để đăng nhập vào tài khoản của mình",
+      "next": "Tôi đã lưu passphrase của mình",
+      "passphraseFrameLabel": "Passphrase",
+      "title": "Passphrase của bạn"
     },
-    "hasAccount": "Đã có tài khoản? <0>Hãy đăng nhập.</0>",
+    "hasAccount": "Đã có tài khoản? <0>Đăng nhập ở đây.</0>",
     "login": {
-      "description": "Hãy nhập mật ngữ của bạn để đăng nhập vào tài khoản",
-      "deviceLengthError": "Hãy nhập tên thiết bị",
-      "passphraseLabel": "Mật ngữ gồm 12 từ",
-      "passphrasePlaceholder": "Mật ngữ",
+      "description": "Vui lòng nhập passphrase của bạn để đăng nhập vào tài khoản của bạn",
+      "deviceLengthError": "Vui lòng nhập tên thiết bị",
+      "passphraseLabel": "Passphrase 12 từ",
+      "passphrasePlaceholder": "Passphrase",
       "submit": "Đăng nhập",
       "title": "Đăng nhập vào tài khoản của bạn",
-      "validationError": "Mật ngữ không chính xác hoặc không đầy đủ"
+      "validationError": "Passphrase không đúng hoặc không đầy đủ"
     },
     "register": {
       "information": {
-        "color1": "Màu hồ sơ số một",
-        "color2": "Màu hồ sơ số hai",
-        "header": "Hãy nhập tên cho thiết bị của bạn và chọn màu sắc và biểu tượng người dùng",
+        "color1": "Màu hồ sơ 1",
+        "color2": "Màu hồ sơ 2",
+        "header": "Nhập tên cho thiết bị của bạn và chọn màu sắc và biểu tượng người dùng theo sở thích của bạn",
         "icon": "Biểu tượng người dùng",
-        "next": "Tiếp theo",
+        "next": "Tiếp",
         "title": "Thông tin tài khoản"
       }
     },
     "trust": {
       "failed": {
-        "text": "Bạn đã cài đặt nó một cách chính xác chưa?",
-        "title": "Không thể truy vấn máy chủ"
+        "text": "Bạn đã cấu hình đúng chưa?",
+        "title": "Không thể kết nối đến máy chủ"
       },
-      "host": "Bạn đang kết nối đến máy chủ <0>{{hostname}}</0> - vui lòng chắc chắn rằng bạn tin tưởng máy chủ này trước khi tạo tài khoản",
+      "noHostTitle": "Máy chủ chưa được cấu hình!",
+      "noHost": "Máy chủ chưa được cấu hình, vì vậy bạn không thể tạo tài khoản",
+      "host": "Bạn đang kết nối đến <0>{{hostname}}</0> - vui lòng xác nhận bạn tin tưởng nó trước khi tạo tài khoản",
       "no": "Quay lại",
       "title": "Bạn có tin tưởng máy chủ này không?",
       "yes": "Tôi tin tưởng máy chủ này"
     },
     "verify": {
-      "description": "Vui lòng nhập mật ngữ của bạn lúc nãy đễ chắc chắn rằng bạn đã lưu nó và để tạo tài khoản",
+      "description": "Vui lòng nhập passphrase của bạn từ trước để xác nhận bạn đã lưu nó và tạo tài khoản của bạn",
       "invalidData": "Dữ liệu không hợp lệ",
-      "noMatch": "Mật ngữ không khớp",
-      "passphraseLabel": "Mật ngữ 12 ký tự của bạn",
-      "recaptchaFailed": "Xác minh bằng ReCaptcha không hợp lệ",
+      "noMatch": "Passphrase không khớp",
+      "passphraseLabel": "Passphrase của bạn (12 từ)",
+      "recaptchaFailed": "Xác minh ReCaptcha không thành công",
       "register": "Tạo tài khoản",
-      "title": "Nhập lại mật ngữ của bạn"
+      "title": "Xác nhận passphrase của bạn"
     }
   },
   "errors": {
-    "badge": "Lỗi",
-    "details": "Thông tin về lỗi",
+    "badge": "Đã xảy ra lỗi",
+    "details": "Chi tiết lỗi",
     "reloadPage": "Tải lại trang",
-    "showError": "Hiển thị thông tin về lỗi",
-    "title": "Đã xảy ra lỗi!"
+    "showError": "Hiện chi tiết lỗi",
+    "title": "Chúng tôi gặp phải một lỗi!"
   },
   "footer": {
     "legal": {
-      "disclaimer": "Tuyên bố miễn trừ trách nhiệm",
-      "disclaimerText": "The Xem Ciné không lưu trữ bất kì file nào, nó chỉ đến những đường dẫn của các dịch vụ bên thứ ba. Bất kỳ vấn đề nào về pháp lý nên được đưa đến chủ sỡ hữu của file hoặc những nhà cung cấp đó. The Xem Ciné hoàn toàn không chịu trách nhiệm cho bất kỳ nội dung nào được chiếu từ các nhà cung cấp."
+      "disclaimer": "Tuyên bố từ chối trách nhiệm",
+      "disclaimerText": "The Xem Ciné không lưu trữ bất kỳ tệp nào, nó chỉ liên kết đến các dịch vụ của bên thứ ba. Các vấn đề pháp lý nên được giải quyết với các máy chủ và nhà cung cấp tệp. The Xem Ciné không chịu trách nhiệm về bất kỳ tệp phương tiện nào được hiển thị bởi các nhà cung cấp video."
     },
     "links": {
       "discord": "Discord",
       "dmca": "DMCA",
       "github": "GitHub"
     },
-    "tagline": "Xem các chương trình và phim yêu thích của bạn với ứng dụng phát trực tuyến nguồn mở này."
+    "tagline": "Xem các chương trình và phim yêu thích của bạn với ứng dụng phát trực tuyến mã nguồn mở này."
   },
   "global": {
     "name": "The Xem Ciné",
     "pages": {
-      "about": "Thông tin",
+      "about": "Giới thiệu",
       "dmca": "DMCA",
       "login": "Đăng nhập",
       "onboarding": "Cài đặt",
@@ -103,75 +105,81 @@
   },
   "home": {
     "bookmarks": {
-      "sectionTitle": "Đánh dấu"
+      "sectionTitle": "Dấu trang"
     },
     "continueWatching": {
       "sectionTitle": "Tiếp tục xem"
     },
-    "mediaList": {
-      "stopEditing": "Hoàn thành"
-    },
     "topRated": {
-      "sectionTitle": "Top Đánh Giá Phim lẻ"
+      "sectionTitle": "Phim có đánh giá cao nhất"
     },
     "topRatedSeries": {
-      "sectionTitle": "Top Đánh Giá Phim Bộ"
+      "sectionTitle": "Phim truyền hình có đánh giá cao nhất"
     },
     "onAirSeries": {
-      "sectionTitle": "Phim bộ mới"
+      "sectionTitle": "Các series đang phát sóng"
     },
     "popularMovies": {
-      "sectionTitle": "Top phim lẻ phổ biến"
+      "sectionTitle": "Phim phổ biến"
     },
     "popularSeries": {
-      "sectionTitle": "Top phim bộ phổ biến"
+      "sectionTitle": "Series phổ biến"
+    },
+    "mediaList": {
+      "stopEditing": "Dừng chỉnh sửa"
     },
     "search": {
-      "allResults": "Đó là tất cả chúng tôi có!",
-      "failed": "Không thể tìm thấy nội dung, hãy thử lại!",
+      "allResults": "Đó là tất cả những gì chúng tôi có!",
+      "failed": "Không tìm thấy phương tiện, thử lại!",
       "loading": "Đang tải...",
       "noResults": "Chúng tôi không thể tìm thấy gì!",
       "placeholder": {
         "default": "Bạn muốn xem gì?",
-        "extra": []
+        "extra": [
+          "Bạn muốn khám phá điều gì?",
+          "Điều gì đang trong danh sách xem của bạn?",
+          "Phim yêu thích của bạn là gì?",
+          "Series yêu thích của bạn là gì?"
+        ]
       },
       "sectionTitle": "Kết quả tìm kiếm"
     },
     "titles": {
       "day": {
-        "default": "Chiều nay bạn muốn coi gì?",
+        "default": "Bạn muốn xem gì vào buổi chiều này?",
         "extra": [
-          "Cảm thấy muốn phiêu lưu? Phim Công viên kỷ Jura có thể là sự lựa chọn hoàn hảo cho bạn."
+          "Cảm thấy mạo hiểm? Jurassic Park có thể là sự lựa chọn hoàn hảo."
         ]
       },
       "morning": {
-        "default": "Sáng nay bạn muốn coi gì?",
+        "default": "Bạn muốn xem gì vào buổi sáng này?",
         "extra": [
-          "Tôi nghe nói rằng bộ phim Before Sunrise hay đấy"
+          "Tôi nghe Before Sunrise là tốt"
         ]
       },
       "night": {
-        "default": "Đêm nay bạn muốn coi gì?",
+        "default": "Bạn muốn xem gì vào tối nay?",
         "extra": [
-          "Cảm thấy mệt? Tôi nghe nói phim The Exorcist hay đấy."
+          "Mệt mỏi? Tôi nghe The Exorcist là tốt."
         ]
       }
     }
   },
   "media": {
-    "episodeDisplay": "M{{season}} T{{episode}}",
+    "episodeDisplay": "Tập S{{season}} E{{episode}}",
+    "unreleased": "Chưa phát hành",
     "types": {
       "movie": "Phim",
-      "show": "Chương trình truyền hình"
+      "show": "Series"
     }
   },
   "navigation": {
     "banner": {
-      "offline": "Hãy kiểm tra kết nối Internet của bạn"
+      "offline": "Kiểm tra kết nối internet của bạn"
     },
     "menu": {
       "about": "Về chúng tôi",
-      "donation": "Ủng hộ",
+      "donation": "Quyên góp",
       "logout": "Đăng xuất",
       "register": "Đồng bộ hóa với đám mây",
       "settings": "Cài đặt",
@@ -180,47 +188,386 @@
   },
   "notFound": {
     "badge": "Không tìm thấy",
-    "goHome": "Quay lại trang chính",
-    "message": "Chúng tôi đã tìm kiếm khắp nơi: dưới thùng rác, trong tủ quần áo, đằng sau máy chủ proxy nhưng vẫn không thể tìm thấy trang bạn đang tìm kiếm.",
-    "title": "Không thể tìm thấy trang"
+    "goHome": "Trở về trang chủ",
+    "message": "Chúng tôi đã tìm khắp mọi nơi: dưới thùng rác, trong tủ, sau máy proxy nhưng cuối cùng vẫn không thể tìm thấy trang bạn đang tìm.",
+    "title": "Không thể tìm thấy trang đó"
   },
   "onboarding": {
     "defaultConfirm": {
-      "cancel": "Huỷ",
-      "confirm": "Chọn cài đặt mặc định",
-      "description": "Cài đặt mặc định có thể dẫn đến việc phát video chậm.",
-      "title": "Bạn có chắc không?"
+      "cancel": "Hủy",
+      "confirm": "Sử dụng cài đặt mặc định",
+      "description": "Cài đặt mặc định không có các luồng video tốt nhất và có thể chậm vãi lồn.",
+      "title": "Bạn chắc chắn chứ?"
     },
     "extension": {
-      "back": "Trở lại",
-      "explainer": "Bạn có thể sử dụng các nguồn tốt nhất mà chúng tôi cung cấp bằng cách sử dụng tiện ích mở rộng trình duyệt. Đơn giản chỉ cần cài đặt."
+      "back": "Quay lại",
+      "explainer": "Sử dụng tiện ích duyệt web, bạn có thể nhận được các luồng tốt nhất mà chúng tôi cung cấp. Chỉ cần cài đặt đơn giản vài bước.",
+      "explainerIos": "Thật không may, tiện ích duyệt web không được hỗ trợ trên iOS, nhấn <bold>Quay lại</bold> để chọn một tùy chọn khác.",
+      "extensionHelp": "Nếu bạn đã cài đặt tiện ích mở rộng nhưng nó vẫn báo chưa cài, <bold>hãy bật tiện ích mở rộng qua menu tiện ích của trình duyệt</bold> và làm theo các bước trên màn hình.",
+      "linkChrome": "Cài đặt tiện ích mở rộng Chrome",
+      "linkFirefox": "Cài đặt tiện ích mở rộng Firefox",
+      "notDetecting": "Đã cài đặt trên Chrome, nhưng trang web không phát hiện ra? Hãy thử tải lại trang!",
+      "notDetectingAction": "Tải lại trang",
+      "status": {
+        "disallowed": "Tiện ích mở rộng không được kích hoạt cho trang này",
+        "disallowedAction": "Kích hoạt tiện ích mở rộng",
+        "failed": "Yêu cầu trạng thái không thành công",
+        "loading": "Đang chờ bạn cài đặt tiện ích mở rộng",
+        "outdated": "Phiên bản tiện ích mở rộng quá cũ",
+        "success": "Tiện ích mở rộng hoạt động như mong đợi!"
+      },
+      "submit": "Tiếp tục",
+      "title": "Bắt đầu với một tiện ích mở rộng"
+    },
+    "proxy": {
+      "back": "Quay lại",
+      "explainer": "Với phương pháp proxy, bạn có thể nhận được các luồng chất lượng tốt bằng cách tạo ra một proxy tự phục vụ.",
+      "input": {
+        "errorConnection": "Không thể kết nối đến proxy",
+        "errorInvalidUrl": "Không phải URL hợp lệ",
+        "errorNotProxy": "Dự kiến là proxy nhưng nhận được một trang web",
+        "label": "URL Proxy",
+        "placeholder": "https://"
+      },
+      "link": "Học cách tạo proxy",
+      "submit": "Gửi proxy",
+      "title": "Hãy tạo một proxy mới"
+    },
+    "start": {
+      "explainer": "Để nhận được các luồng tốt nhất có thể, bạn sẽ cần chọn phương pháp phát trực tuyến mà bạn muốn sử dụng.",
+      "options": {
+        "default": {
+          "text": "Tôi không muốn có các luồng chất lượng tốt,<0 /> <1>sử dụng cài đặt mặc định</1>"
+        },
+        "extension": {
+          "action": "Cài đặt tiện ích mở rộng",
+          "description": "Cài đặt tiện ích mở rộng trình duyệt và truy cập vào các nguồn tốt nhất.",
+          "quality": "Chất lượng tốt nhất",
+          "title": "Tiện ích mở rộng trình duyệt"
+        },
+        "proxy": {
+          "action": "Cài đặt proxy",
+          "description": "Thiết lập proxy trong vòng 5 phút và truy cập vào các nguồn tốt.",
+          "quality": "Chất lượng tốt",
+          "title": "Proxy tùy chỉnh"
+        }
+      },
+      "title": "Hãy bắt đầu cài đặt The Xem Ciné của bạn"
     }
+  },
+  "overlays": {
+    "close": "Đóng"
   },
   "player": {
     "back": {
-      "default": "Quay lại trang chính",
+      "default": "Quay lại trang chủ",
       "short": "Quay lại"
     },
+    "casting": {
+      "enabled": "Chromecast đến thiết bị..."
+    },
     "menus": {
+      "downloads": {
+        "disclaimer": "Tải xuống được thực hiện trực tiếp từ nhà cung cấp. The Xem Ciné không kiểm soát cách thức tải xuống được cung cấp.",
+        "copyHlsPlaylist": "Sao chép liên kết danh sách phát HLS",
+        "downloadSubtitle": "Tải xuống phụ đề hiện tại",
+        "downloadVideo": "Tải xuống video",
+        "hlsDisclaimer": "Tải xuống được thực hiện trực tiếp từ nhà cung cấp. The Xem Ciné không kiểm soát cách thức tải xuống được cung cấp.<br /><br />Vui lòng lưu ý rằng bạn đang tải xuống một danh sách phát HLS, <bold>không khuyến khích tải xuống nếu bạn không quen với các định dạng phát trực tuyến nâng cao</bold>. Hãy thử các nguồn khác để có các định dạng khác nhau.",
+        "onAndroid": {
+          "1": "Để tải xuống trên Android, nhấp vào nút tải xuống sau đó, trên trang mới, <bold>bấm và giữ</bold> trên video, sau đó chọn <bold>lưu</bold>.",
+          "shortTitle": "Tải xuống / Android",
+          "title": "Tải xuống trên Android"
+        },
+        "onIos": {
+          "1": "Để tải xuống trên iOS, nhấp vào nút tải xuống sau đó, trên trang mới, nhấp vào <bold><ios_share /></bold>, sau đó chọn <bold>Lưu vào Tập tin <ios_files /></bold>.",
+          "shortTitle": "Tải xuống / iOS",
+          "title": "Tải xuống trên iOS"
+        },
+        "onPc": {
+          "1": "Trên PC, nhấp vào nút tải xuống sau đó, trên trang mới, nhấp chuột phải vào video và chọn <bold>Lưu video dưới dạng</bold>",
+          "shortTitle": "Tải xuống / PC",
+          "title": "Tải xuống trên PC"
+        },
+        "title": "Tải xuống"
+      },
       "episodes": {
-        "button": "Tập",
+        "button": "Các tập",
+        "emptyState": "Không có tập nào trong mùa này, hãy kiểm tra lại sau!",
+        "episodeBadge": "E{{episode}}",
+        "loadingError": "Lỗi tải mùa",
         "loadingList": "Đang tải...",
-        "loadingTitle": "Đang tải..."
+        "loadingTitle": "Đang tải...",
+        "unairedEpisodes": "Một hoặc nhiều tập trong mùa này đã bị vô hiệu hóa vì chúng chưa được phát sóng."
+      },
+      "playback": {
+        "speedLabel": "Tốc độ phát lại",
+        "title": "Cài đặt phát lại"
+      },
+      "quality": {
+        "automaticLabel": "Chất lượng tự động",
+        "hint": "Bạn có thể thử <0>chuyển đổi nguồn</0> để có các tùy chọn chất lượng khác nhau.",
+        "iosNoQuality": "Do các hạn chế được xác định bởi Apple, việc lựa chọn chất lượng không khả dụng trên iOS cho nguồn này. Bạn có thể thử <0>chuyển đổi sang nguồn khác</0> để có các tùy chọn chất lượng khác nhau.",
+        "title": "Chất lượng"
+      },
+      "settings": {
+        "downloadItem": "Tải xuống",
+        "enableSubtitles": "Bật Phụ đề",
+        "experienceSection": "Trải nghiệm xem",
+        "playbackItem": "Cài đặt phát lại",
+        "audioItem": "Âm thanh",
+        "qualityItem": "Chất lượng",
+        "sourceItem": "Nguồn video",
+        "subtitleItem": "Cài đặt phụ đề",
+        "videoSection": "Cài đặt video"
       },
       "sources": {
-        "title": "Nguồn"
+        "failed": {
+          "text": "Đã xảy ra lỗi khi cố gắng tìm bất kỳ video nào, vui lòng thử một nguồn khác.",
+          "title": "Không thể thu thập dữ liệu"
+        },
+        "noEmbeds": {
+          "text": "Chúng tôi không thể tìm thấy bất kỳ nhúng nào, vui lòng thử một nguồn khác.",
+          "title": "Không có nhúng nào được tìm thấy"
+        },
+        "noStream": {
+          "text": "Nguồn này không có luồng cho bộ phim hoặc chương trình truyền hình này.",
+          "title": "Không có luồng"
+        },
+        "title": "Nguồn",
+        "unknownOption": "Không xác định"
+      },
+      "subtitles": {
+        "customChoice": "Thả hoặc tải lên tệp",
+        "customizeLabel": "Tùy chỉnh",
+        "offChoice": "Tắt",
+        "settings": {
+          "backlink": "Phụ đề tùy chỉnh",
+          "delay": "Độ trễ phụ đề",
+          "fixCapitals": "Sửa chữ hoa"
+        },
+        "title": "Phụ đề",
+        "unknownLanguage": "Không xác định",
+        "dropSubtitleFile": "Thả tệp phụ đề vào đây"
       }
     },
     "metadata": {
+      "api": {
+        "text": "Không thể tải dữ liệu siêu dữ liệu API, vui lòng kiểm tra kết nối internet của bạn.",
+        "title": "Không thể tải siêu dữ liệu API"
+      },
+      "dmca": {
+        "badge": "Đã xóa",
+        "text": "Phương tiện này không còn khả dụng do thông báo giới hạn hoặc yêu cầu bản quyền.",
+        "title": "Phương tiện đã bị xóa"
+      },
+      "extensionPermission": {
+        "badge": "Thiếu Quyền",
+        "button": "Sử dụng tiện ích",
+        "text": "Bạn đã cài đặt tiện ích duyệt, nhưng chúng tôi cần sự cho phép của bạn để bắt đầu sử dụng tiện ích.",
+        "title": "Cấu hình tiện ích"
+      },
+      "failed": {
+        "badge": "Thất bại",
+        "homeButton": "Quay lại trang chủ",
+        "text": "Không thể tải dữ liệu siêu dữ liệu phương tiện từ TMDB. Vui lòng kiểm tra xem TMDB có bị tắt hoặc chặn trên kết nối internet của bạn không.",
+        "title": "Không thể tải siêu dữ liệu"
+      },
       "notFound": {
         "badge": "Không tìm thấy",
-        "homeButton": "Quay lại trang chính",
-        "text": "Chúng tôi không thể tìm thấy nội dung mà bạn yêu cầu. Hoặc là nó đã bị xóa, hoặc bạn đã xáo trộn URL.",
-        "title": "Không thể tìm thấy nội dung."
+        "homeButton": "Quay lại trang chủ",
+        "text": "Chúng tôi không thể tìm thấy phương tiện bạn yêu cầu. Hoặc nó đã bị xóa hoặc bạn đã thay đổi URL.",
+        "title": "Không thể tìm thấy phương tiện đó."
       }
     },
+    "nextEpisode": {
+      "cancel": "Hủy",
+      "next": "Tập tiếp theo"
+    },
     "playbackError": {
-      "title": "Rất tiếc, đã hỏng!"
+      "badge": "Lỗi phát lại",
+      "errors": {
+        "errorAborted": "Việc lấy phương tiện đã bị hủy bỏ do yêu cầu của người dùng.",
+        "errorDecode": "Mặc dù trước đó đã được xác định là có thể sử dụng, nhưng đã xảy ra lỗi khi cố gắng giải mã tài nguyên phương tiện, dẫn đến lỗi.",
+        "errorGenericMedia": "Đã xảy ra lỗi phương tiện không xác định.",
+        "errorNetwork": "Đã xảy ra lỗi mạng nào đó đã ngăn chặn việc lấy phương tiện một cách thành công, mặc dù trước đó đã có sẵn.",
+        "errorNotSupported": "Đối tượng phương tiện hoặc nhà cung cấp phương tiện không được hỗ trợ."
+      },
+      "homeButton": "Quay lại trang chủ",
+      "text": "Đã xảy ra lỗi khi cố gắng phát phương tiện. Vui lòng thử lại.",
+      "title": "Không thể phát video!"
+    },
+    "scraping": {
+      "items": {
+        "failure": "Đã xảy ra lỗi",
+        "notFound": "Không có video",
+        "pending": "Đang kiểm tra video..."
+      },
+      "notFound": {
+        "badge": "Không tìm thấy",
+        "detailsButton": "Hiển thị chi tiết",
+        "homeButton": "Quay lại trang chủ",
+        "text": "Chúng tôi đã tìm kiếm thông qua các nhà cung cấp của chúng tôi và không thể tìm thấy phương tiện bạn đang tìm kiếm! Chúng tôi không lưu trữ phương tiện và không kiểm soát những gì có sẵn. Vui lòng nhấp vào 'Hiển thị chi tiết' dưới đây để biết thêm chi tiết.",
+        "title": "Chúng tôi không thể tìm thấy điều đó"
+      },
+      "extensionFailure": {
+        "badge": "Tiện ích bị vô hiệu hóa",
+        "homeButton": "Quay lại trang chủ",
+        "enableExtension": "Kích hoạt tiện ích",
+        "title": "Vui lòng kích hoạt tiện ích",
+        "text": "Bạn đã cài đặt tiện ích movie-web. Để bắt đầu sử dụng nó, bạn cần kích hoạt tiện ích cho trang này."
+      }
+    },
+    "time": {
+      "regular": "{{timeWatched}} / {{duration}}",
+      "remaining": "{{timeLeft}} còn lại • Kết thúc vào {{timeFinished, datetime}}",
+      "shortRegular": "{{timeWatched}}",
+      "shortRemaining": "-{{timeLeft}}"
+    },
+    "turnstile": {
+      "description": "Vui lòng xác minh rằng bạn là con người bằng cách hoàn thành Captcha bên phải. Điều này để giữ The Xem Ciné an toàn!",
+      "error": "Không thể xác minh sự nhân văn của bạn. Vui lòng thử lại.",
+      "title": "Chúng tôi cần xác minh bạn là con người.",
+      "verifyingHumanity": "Đang xác minh sự nhân văn của bạn..."
     }
+  },
+  "screens": {
+    "dmca": {
+      "text": "Chào mừng bạn đến trang liên hệ DMCA của The Xem Ciné! Chúng tôi tôn trọng quyền sở hữu trí tuệ và muốn giải quyết mọi vấn đề liên quan đến bản quyền một cách nhanh chóng. Nếu bạn tin rằng tác phẩm bản quyền của bạn đã được sử dụng không đúng cách trên nền tảng của chúng tôi, vui lòng gửi một thông báo DMCA chi tiết đến địa chỉ email dưới đây. Vui lòng bao gồm một mô tả về tác phẩm bản quyền, thông tin liên hệ của bạn và một tuyên bố về lòng tin tốt. Chúng tôi cam kết giải quyết những vấn đề này một cách nhanh chóng và đánh giá cao sự hợp tác của bạn trong việc duy trì The Xem Ciné là một nơi tôn trọng sự sáng tạo và bản quyền.",
+      "title": "DMCA"
+    },
+    "loadingApp": "Đang tải ứng dụng",
+    "loadingUser": "Đang tải hồ sơ của bạn",
+    "loadingUserError": {
+      "logout": "Đăng xuất",
+      "reset": "Đặt lại máy chủ tùy chỉnh",
+      "text": "Không thể tải hồ sơ của bạn",
+      "textWithReset": "Không thể tải hồ sơ của bạn từ máy chủ tùy chỉnh của bạn, bạn có muốn đặt lại về máy chủ mặc định không?"
+    },
+    "migration": {
+      "failed": "Không thể di chuyển dữ liệu của bạn.",
+      "inProgress": "Vui lòng chờ, chúng tôi đang di chuyển dữ liệu của bạn. Điều này không nên mất nhiều thời gian."
+    }
+  },
+  "settings": {
+    "account": {
+      "accountDetails": {
+        "deviceNameLabel": "Tên thiết bị",
+        "deviceNamePlaceholder": "Điện thoại cá nhân",
+        "editProfile": "Chỉnh sửa",
+        "logoutButton": "Đăng xuất"
+      },
+      "actions": {
+        "delete": {
+          "button": "Xóa tài khoản",
+          "confirmButton": "Xác nhận xóa tài khoản",
+          "confirmDescription": "Bạn có chắc chắn muốn xóa tài khoản của mình không? Tất cả dữ liệu của bạn sẽ bị mất!",
+          "confirmTitle": "Bạn có chắc chắn?",
+          "text": "Hành động này không thể hoàn tác. Tất cả dữ liệu sẽ bị xóa và không thể khôi phục lại.",
+          "title": "Xóa tài khoản"
+        },
+        "title": "Các hành động"
+      },
+      "devices": {
+        "deviceNameLabel": "Tên thiết bị",
+        "failed": "Không thể tải các phiên",
+        "removeDevice": "Xóa",
+        "title": "Thiết bị"
+      },
+      "profile": {
+        "finish": "Hoàn tất chỉnh sửa",
+        "firstColor": "Màu hồ sơ 1",
+        "secondColor": "Màu hồ sơ 2",
+        "title": "Chỉnh sửa ảnh hồ sơ",
+        "userIcon": "Biểu tượng người dùng"
+      },
+      "register": {
+        "cta": "Bắt đầu",
+        "text": "Chia sẻ tiến trình xem của bạn giữa các thiết bị và duy trì đồng bộ.",
+        "title": "Đồng bộ với đám mây"
+      },
+      "title": "Tài khoản"
+    },
+    "appearance": {
+      "activeTheme": "Đang sử dụng",
+      "themes": {
+        "blue": "Xanh lam",
+        "default": "Mặc định",
+        "gray": "Xám",
+        "red": "Đỏ",
+        "teal": "Xanh dương lá cây"
+      },
+      "title": "Giao diện"
+    },
+    "connections": {
+      "server": {
+        "description": "Nếu bạn muốn kết nối đến một backend tùy chỉnh để lưu trữ dữ liệu của mình, hãy bật tính năng này và cung cấp URL. <0>Hướng dẫn.</0>",
+        "label": "Máy chủ tùy chỉnh",
+        "urlLabel": "URL máy chủ tùy chỉnh"
+      },
+      "setup": {
+        "doSetup": "Thực hiện cài đặt",
+        "errorStatus": {
+          "description": "Có vẻ như một hoặc nhiều mục trong cài đặt này cần sự chú ý của bạn.",
+          "title": "Có điều gì đó cần sự chú ý của bạn"
+        },
+        "itemError": "Có vấn đề với cài đặt này. Hãy thực hiện lại cài đặt để sửa chữa.",
+        "items": {
+          "default": "Cài đặt mặc định",
+          "extension": "Phần mở rộng",
+          "proxy": "Proxy tùy chỉnh"
+        },
+        "redoSetup": "Thực hiện lại cài đặt",
+        "successStatus": {
+          "description": "Tất cả mọi thứ đã sẵn sàng để bạn bắt đầu xem phim yêu thích của mình.",
+          "title": "Mọi thứ đã được thiết lập!"
+        },
+        "unsetStatus": {
+          "description": "Vui lòng nhấp vào nút bên phải để bắt đầu quá trình cài đặt.",
+          "title": "Bạn chưa thực hiện cài đặt"
+        }
+      },
+      "title": "Kết nối",
+      "workers": {
+        "addButton": "Thêm worker mới",
+        "description": "Để ứng dụng hoạt động, tất cả lưu lượng truy cập được định tuyến qua các proxy. Bật tính năng này nếu bạn muốn sử dụng các worker proxy của riêng mình. <0>Hướng dẫn.</0>",
+        "emptyState": "Chưa có worker nào, thêm một worker dưới đây",
+        "label": "Sử dụng worker proxy tùy chỉnh",
+        "urlLabel": "URL Worker",
+        "urlPlaceholder": "https://"
+      }
+    },
+    "preferences": {
+      "language": "Ngôn ngữ ứng dụng",
+      "languageDescription": "Ngôn ngữ được áp dụng cho toàn bộ ứng dụng.",
+      "thumbnail": "Tạo hình thu nhỏ",
+      "thumbnailDescription": "Đa số thời gian, video không có hình thu nhỏ. Bạn có thể bật cài đặt này để tạo chúng ngay lập tức nhưng chúng có thể làm chậm video của bạn.",
+      "thumbnailLabel": "Tạo hình thu nhỏ",
+      "title": "Tùy chọn"
+    },
+    "reset": "Đặt lại",
+    "save": "Lưu",
+    "sidebar": {
+      "info": {
+        "appVersion": "Phiên bản ứng dụng",
+        "backendUrl": "URL Backend",
+        "backendVersion": "Phiên bản Backend",
+        "hostname": "Tên máy chủ",
+        "insecure": "Không an toàn",
+        "notLoggedIn": "Bạn chưa đăng nhập",
+        "secure": "An toàn",
+        "title": "Thông tin ứng dụng",
+        "unknownVersion": "Không rõ",
+        "userId": "ID người dùng"
+      }
+    },
+    "subtitles": {
+      "backgroundLabel": "Độ mờ nền",
+      "backgroundBlurLabel": "Mờ nền",
+      "colorLabel": "Màu sắc",
+      "previewQuote": "Tôi không được sợ hãi. Sợ hãi là kẻ giết chết tư duy.",
+      "textSizeLabel": "Cỡ chữ",
+      "title": "Phụ đề"
+    },
+    "unsaved": "Bạn có thay đổi chưa lưu"
   }
 }
